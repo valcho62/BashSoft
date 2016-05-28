@@ -43,7 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BashSoft.cs" />
+    <Compile Include="BashSoftStart.cs" />
+    <Compile Include="Data.cs" />
+    <Compile Include="ExeptionMessages.cs" />
+    <Compile Include="IOManager.cs" />
+    <Compile Include="OutputWriter.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
