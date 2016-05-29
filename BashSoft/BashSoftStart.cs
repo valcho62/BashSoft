@@ -12,8 +12,8 @@ public static class BashSoftStart
     
     public static void Main()
     {
-        Data.InitilizeData();
-        Data.GetAllStudentsFromCourse("Unity");
+        IOManager.ChangeCurrentDirectoryAbsolute(@"c:\windows");
+        IOManager.TraverseDirectory(20);
     }
 }
 
