@@ -12,8 +12,13 @@ public static class BashSoftStart
     
     public static void Main()
     {
-        IOManager.ChangeCurrentDirectoryAbsolute(@"c:\windows");
-        IOManager.TraverseDirectory(20);
+        IOManager.ChangeCurrentDirectoryRelative("..");
+        IOManager.ChangeCurrentDirectoryRelative("..");
+        IOManager.ChangeCurrentDirectoryRelative("..");
+        IOManager.ChangeCurrentDirectoryRelative("..");
+        IOManager.ChangeCurrentDirectoryRelative("..");
+        
+        IOManager.TraverseDirectory(1);
     }
 }
 
