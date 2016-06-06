@@ -10,6 +10,7 @@ namespace BashSoft
     {
         public const string exampleExeptionMessage = "Example message !";
         public const string UnableToGoHigher = "You cant go higher than root.";
+        public const string UnableToParseNumber = "The sequence you've written is not a valid number.";
         public const string InvalidSymbolInNames = "You have invalid symbol in directory name";
         public const string ComparisonOfFilesWithDifferentSizes ="Files not of equal size, certain mismatch.";
         public const string UnauthorizedAccessExceptionMessage = "The folder/file you are trying to get access needs a higher level of rights than you currently have.";
